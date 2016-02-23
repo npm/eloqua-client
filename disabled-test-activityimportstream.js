@@ -19,14 +19,18 @@ tap.test('test eloqua', function(t) {
         t.test('write', function(t) {
           stream.write({
             EmailAddress: "blackhole+test@npmjs.com",
+            CampaignId: 5,
             ActivityType: "Publish",
             AssetType: "Package",
+            AssetDate: "2015-12-09 23:52:21",
             AssetName: "test"
           });
           stream.write({
             EmailAddress: "blackhole+test@npmjs.com",
+            CampaignId: 5,
             ActivityType: "Publish",
             AssetType: "Package",
+            AssetDate: "2015-12-09 23:52:21",
             AssetName: "test2"
           });
           stream.end();

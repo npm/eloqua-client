@@ -119,9 +119,11 @@ Client.prototype.createActivityImportStream = function createActivityImportStrea
     name: importName,
     fields: {
       //ContactId: "{{Activity.Contact.Id}}",
-      EmailAddress: "{{Activity.Field(EmailAddress)}}",
+      EmailAddress: "{{Activity.Contact.Field(C_EmailAddress)}}",
+      CampaignId: "{{Activity.Campaign.Id}}",
       ActivityType: "{{Activity.Type}}",
       AssetType: "{{Activity.Asset.Type}}",
+      AssetDate: "{{Activity.CreatedAt}}",
       AssetName: "{{Activity.Asset.Name}}"
     },
     isSyncTriggeredOnImport: true,
