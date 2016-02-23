@@ -1,6 +1,6 @@
 {
   "name": "eloqua-client",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Work-in-progress client for the Eloqua REST and BULK APIs",
   "main": "eloqua.js",
   "scripts": {
