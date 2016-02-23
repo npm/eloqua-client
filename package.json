@@ -10,6 +10,7 @@
   "license": "ISC",
   "devDependencies": {
     "dotenv": "^1.2.0",
+    "esformatter": "^0.9.1",
     "tap": "^2.2.0"
   },
   "dependencies": {
