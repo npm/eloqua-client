@@ -11,7 +11,7 @@
   "devDependencies": {
     "dotenv": "^1.2.0",
     "esformatter": "^0.9.1",
-    "tap": "^2.2.0"
+    "tap": "^5.7.0"
   },
   "dependencies": {
     "batch-stream2": "^0.1.3",
